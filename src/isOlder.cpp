@@ -15,7 +15,7 @@ NOTES: 		Don't use any built-in C functions for comparisions. You are free to wr
 #include<stdlib.h>
 
 
-//converting date1 to a number
+//converting date to a number
 
 void convert(char *dob,int **a,int k)
 {
@@ -38,6 +38,7 @@ void convert(char *dob,int **a,int k)
 	a[k][j] = sum;
 }
 
+//chekcing for any extra characters except numbers and '-' in date
 
 int check_other_symbols(char *dob)
 {
